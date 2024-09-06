@@ -1,0 +1,181 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .title__colored {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .title__big {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .promo__text {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .btn {
+        min-width: 280px;
+        min-height: 64px;
+    }
+    .skills__item {
+        width: 200px;
+    }
+    .intensive {
+        .intensive__item {
+            width: 30%;
+        }
+        .intenvisve__wrapper {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .title__colored {
+        font-size: 32px;
+    }
+    .title__big {
+        font-size: 60px;
+    }
+    .promo__text {
+        font-size: 18px;
+    }
+    .info {
+        .info__text {
+            padding-left: 0;
+        }
+    }
+    .skills {
+        .skills__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            .skills__item {
+                width: 45%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title__colored {
+        font-size: 28px;
+    }
+    .title__big {
+        font-size: 50px;
+    }
+    .promo__text {
+        font-size: 16px;
+    }
+    .skills__item {
+        width: 100%;
+    }
+    .promo__more-text {
+        font-size: 13px;
+    }
+    .intensive {
+        #i_wrapper {
+            flex-wrap: wrap;
+            #i_item {
+                width: 45%;
+                
+            }
+            #i_item:nth-last-child(1) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .skills__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__item {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+    .title__colored {
+        font-size: 26px;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .title__big {
+        font-size: 40px;
+    }
+    .promo__text {
+        font-size: 14px;
+    }
+    .btn {
+        min-width: 250px;
+        min-height: 60px;
+    }
+    .promo__more-text {
+        font-size: 12px;
+    }
+    .skills__wrapper {
+        flex-direction: column;
+    }
+    .skills__item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .intensive {
+        padding: 50px 0;
+        #i_wrapper {
+            flex-wrap: nowrap;
+            #i_item {
+                width: 100%;
+            }
+        }
+        
+        .intenvisve__wrapper {
+            flex-direction: column;
+            margin-bottom: 0;
+            margin-top: 32px;
+        }
+        
+        .intensive__title {
+            font-size: 26px;
+        }
+        .intensive__subtitle {
+            font-size: 20px;
+        }
+        .intensive__item {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .info {
+        padding: 60px 0;
+        .info__img {
+            top: 123px;
+        }
+        .info__title {
+            font-size: 26px;
+        }
+        .info__text:nth-last-child(2) {
+            display: none;
+        }
+    }
+    .gift__text  {
+        font-size: 26px;
+    }
+    .webinar {
+        .webinar__text {
+            font-size: 20px;
+        }
+    }
+}
